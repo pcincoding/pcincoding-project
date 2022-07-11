@@ -1,0 +1,39 @@
+#myCanvas{
+    margin-left: 25%;
+}
+#dragon1{
+    background-image: url("Images/dragon1.gif");
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left:  67%;
+    top: 15%;
+    display: none;
+}
+#dragon2{
+    background-image: url("Images/dragon2.gif");
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left:  0;
+    top: 15%;
+    transform: rotateY(180deg);
+    display: none;
+}
+#Restart {
+    display: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #d5106b;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
